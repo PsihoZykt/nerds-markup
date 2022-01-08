@@ -1,0 +1,409 @@
+/*there is some strange decisions, it's because psd-markup is strange and i can't create it correctly without these decisions*/
+/*i mean, for example navbar looks like it's centered, but it's not, and I want to follow psd even if it's created badly'*/
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+.wrapper {
+
+    width: 1440px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+.topMenu {
+
+    padding-top: 48px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: #EEEEEE;
+}
+
+.logo {
+}
+
+.navbarWrapper {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    flex-flow: row nowrap;
+}
+
+.navbar {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    /*These margins for more "pixel-perfect"*/
+    margin-right: 40px;
+    margin-top: 18px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    /*this margin for more pixel perfect */
+    margin-top: 18px;
+    gap: 26px;
+}
+
+.sloganWrapper {
+    display: grid;
+    grid-template-areas:
+    'header image'
+    'text image'
+    'button image';
+    grid-template-columns: 36fr 64fr;
+    grid-template-rows: 173px 110px 147px;
+}
+
+.sloganHeader {
+    grid-area: header;
+    line-height: 55px;
+    font-weight: 500;
+    font-size: 55px;
+    /*h2 has own margin, set our to match mark up*/
+    margin-top: 76px;
+    /*margin-bottom: 27px;*/
+}
+
+.sloganText {
+    grid-area: text;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    padding-top: 40px;
+}
+
+.sloganButton {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: button;
+    width: 240px;
+    height: 50px;
+    background-color: #FB565A;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.sloganImage {
+    grid-area: image;
+    padding-top: 16px;
+    padding-left: 13px;
+}
+
+.advantages {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 140px;
+    gap: 60px;
+}
+
+.advantageCard {
+    margin-right: 40px;
+}
+
+.advantageHeader {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.advantageText {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.advantageButton {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: button;
+    width: 160px;
+    height: 50px;
+    background-color: #FB565A;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.advantageButton.green {
+    background-color: #00CA74;;
+}
+
+.advantageButton.yellow {
+    background-color: #EFC84A;
+}
+
+.description {
+    display: grid;
+    grid-template-areas:
+    'left right'
+    'left right'
+    'social social';
+    grid-template-columns: 660px 500px;
+    width: 1160px;
+    margin-left: 140px;
+    margin-top: 76px;
+}
+
+.descriptionLeft {
+    grid-area: left;
+    margin-top: 80px;
+}
+
+.descriptionRight {
+    grid-area: right;
+}
+
+.descriptionSocial {
+    grid-area: social;
+}
+
+.descriptionHeader {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.descriptionText {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #283136;
+    margin-top: 32px;
+
+}
+
+.descriptionOrderWrapper {
+    margin-top: 38px;
+}
+
+.descriptionOrderHeader {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #283136;
+}
+
+.descriptionOrder {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #283136;
+    margin-top: 24px;
+    margin-left: 35px;
+
+}
+
+.descriptionRight {
+    margin-left: 140px;
+    margin-top: 46px;
+}
+
+.descriptionPercentagesHeader {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-left: 17px;
+
+}
+
+.descriptionPercentageItemWrapper {
+    display: flex;
+    margin-top: 58px;
+    gap: 23px;
+}
+
+.descriptionPercentageItemHeader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 10px;
+}
+
+.descriptionPercentageItemText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: -8px;
+}
+
+.descriptionPercentageItem {
+    display: flex;
+    flex-flow: column;
+    gap: 37px;
+}
+
+.descriptionSocial {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(200, 200, 200, 0.7);
+    border-top: 2px solid rgba(200, 200, 200, 0.7);
+    margin-top: 71px;
+    padding-left: 30px;
+    padding-top: 61px;
+    padding-bottom: 48px;
+}
+
+.descriptionSocialItem:nth-child(1) {
+    width: 281px
+}
+
+.descriptionSocialItem:nth-child(2) {
+    width: 256px;
+    margin-top: -15px;
+    padding-right: 44px;
+}
+
+.descriptionSocialItem:nth-child(3) {
+    width: 243px;
+    padding-bottom: 20px;
+    padding-right: 47px;
+}
+
+.descriptionSocialItem:nth-child(4) {
+    padding-right: 44px;
+    margin-top: -10px;
+}
+
+.descriptionSocialItem {
+    display: flex;
+}
+
+.descriptionSocialItem .verticalDivider {
+    width: 2px;
+    height: 55px;
+    background-color: rgba(200, 200, 200, 0.7);
+}
+.descriptionSocialItem:nth-child(1) .verticalDivider {
+    margin-left: 50px;
+}
+.descriptionSocialItem:nth-child(2) .verticalDivider {
+    margin-left: 45px;
+    margin-top: 17px;
+}
+
+.descriptionSocialItem:nth-child(3) .verticalDivider {
+    margin-left: 56px;
+}
+
+.description {
+    border-top: 2px solid rgba(200, 200, 200, 0.7);
+
+}
+
+.percentageSign {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 10px;
+    position: relative;
+    top: -16px;
+
+}
+
+
+.contacts {
+    margin-top: 78px;
+    position: relative;
+}
+.contactsMapCard {
+    position: absolute;
+    top: 53px;
+    left: 140px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 47px;
+    padding-right: 50px;
+    background-color: white;
+}
+.contactsMapCardHeader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.contactsMapCardText {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+.contactsMapCardButton {
+    width: 219px;
+    height: 50px;
+    background-color: #FB565A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+    border-radius: 3px;
+}
+.contactsMapMarker {
+    position: absolute;
+    top: 87px;
+    right: 387px;
+}
+.socialMedia {
+    margin-left: 140px;
+    margin-top: 56px;
+    display: flex;
+    gap: 137px;
+}
+.socialMediaIconsWrapper {
+    display: flex;
+    gap: 10px;
+}
+.socialMediaIcon {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialMediaDiscountHeader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 7px;
+}
+.socialMediaDiscountText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 9px;
+}
