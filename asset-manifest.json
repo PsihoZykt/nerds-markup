@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nerds-markup/static/css/main.b5505760.css",
+    "main.css": "/nerds-markup/static/css/main.6f2159b9.css",
     "main.js": "/nerds-markup/static/js/main.3fdc500c.js",
     "static/media/map.png": "/nerds-markup/static/media/map.2d4a88b473c020d3c7cb.png",
     "static/media/sloganImage.png": "/nerds-markup/static/media/sloganImage.4f1e2975aa7313162359.png",
@@ -11,11 +11,11 @@
     "static/media/advantageImage_3.png": "/nerds-markup/static/media/advantageImage_3.05b6f6e490181deb4302.png",
     "index.html": "/nerds-markup/index.html",
     "static/media/cart-icon.svg": "/nerds-markup/static/media/cart-icon.770723b6f4bdf14291a2654e889bb32b.svg",
-    "main.b5505760.css.map": "/nerds-markup/static/css/main.b5505760.css.map",
+    "main.6f2159b9.css.map": "/nerds-markup/static/css/main.6f2159b9.css.map",
     "main.3fdc500c.js.map": "/nerds-markup/static/js/main.3fdc500c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5505760.css",
+    "static/css/main.6f2159b9.css",
     "static/js/main.3fdc500c.js"
   ]
 }
