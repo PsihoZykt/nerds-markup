@@ -8,6 +8,9 @@ It's not really pixel-perfect because I have some issues with text ( All setting
 
 based on cra
 
+I mixed up some styles of file-structure ( Total decomposition for main-menu and top-menu and place entire code in one file for footer. 
+I made it intentionally, just for my own purposes. I know, that both styles are bad and mix-up styles in project it's incorrect, but for education purposes I did it to show myself why it's bad and when I could it use to make more convenient file-structure
+
 # Preview
 ![Desktop](https://user-images.githubusercontent.com/34924425/148641156-e8224f7c-98ed-4c8d-b55c-dca68d02b3ef.png)
 
